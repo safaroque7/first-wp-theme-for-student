@@ -1,0 +1,131 @@
+/*
+Theme Name: My Portfolio Theme
+Theme URI: https://github.com/masudrana93/my-portfolio/
+Author: Md. Masud Rana
+Author URI: https://webnewsdesign.com
+Description: It is my portfolio theme. 
+Requires at least: 6.7
+Tested up to: 6.8
+Requires PHP: 7.2
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: myPortfolioTheme
+Tags: Portpolio theme, theme, blog
+*/
+
+.brand-color {
+  background-color: #ae3941;
+  color: white;
+}
+
+.bg-color {
+  background-color: #ae3941;
+}
+
+.icon-color {
+  color: #ae3941;
+}
+
+/* Navbar Css Start */
+.dropdown-menu {
+  border: 0;
+  border-radius: 0;
+
+  padding-bottom: 0;
+}
+.dropdown-item:hover {
+  background-color: #bb1d2c;
+  color: white;
+}
+.menu-ft-size li a {
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #bb1d2c !important;
+}
+
+.login-close-btn {
+  background-color: white !important;
+}
+
+/* Navbar Css End */
+
+/* Footer CSS Start */
+.footer-bg-color {
+  background-color: #121921;
+}
+
+.footer-address a {
+  color: gray;
+}
+
+.footer-address a:hover {
+  color: #ae3941;
+  transition: all 0.3s ease;
+}
+
+.footer-headings-color {
+  color: white;
+}
+
+.footer-company ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-company ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-company ul li a:hover {
+  color: #ae3941;
+  transition: all 0.3s ease;
+}
+
+.footer-courses ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-courses ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-courses ul li a:hover {
+  color: #ae3941;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-getin-touch ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-getin-touch ul li a {
+  text-decoration: none;
+  color: gray;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-getin-touch ul li a:hover {
+  color: #ae3941;
+}
+
+/* Footer CSS End  */
+
+/*** our courses section css start  ***/
+.our-courses-view-btn-hover a {
+  border: 2px solid #ae3941;
+  transition: all 0.3s ease;
+}
+
+.our-courses-view-btn-hover a:hover {
+  border: 2px solid #ae3941;
+  color: #ae3941;
+}
+
+/*** our courses section css end  ***/
