@@ -1,21 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <!-- Bootstrap icons link  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-    <!-- External CSS Link  -->
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="style.css">
+    <?php wp_head(); ?>
 
 </head>
 
@@ -33,16 +23,11 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <a class="navbar-brand  " href="index.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="<?php echo esc_url(get_template_directory_uri() . '/images/logo-1.jpg'); ?>" alt="Main-logo" class="img-fluid" style="width: 80px;">
                         </a>
 
-
-
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ft-size">
                                 <li class="nav-item">
                                     <a class="nav-link " aria-current="page" href="index.html">Home</a>
