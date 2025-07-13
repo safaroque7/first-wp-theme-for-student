@@ -3,6 +3,7 @@
 <div class="container-fluid footer-bg-color">
     <div class="container">
         <div class="row py-5">
+            <!-- Address Start -->
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-12 footer-logo-size mb-3">
@@ -23,21 +24,24 @@
                     </div>
                 </div>
             </div>
+            <!-- Address End -->
 
+            <!-- Company Menu Start -->
             <div class="col-md-2 footer-company mt-md-0 mt-4">
                 <h5 class="footer-headings-color mb-md-3 mb-2">Company</h5>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about-us.html">My Projects</a></li>
 
-                    <li><a href="faqs.html">About Myself</a></li>
+                <?php
+                wp_nav_menu(array(
+                    'theme_location'    =>  'company-menu',
+                    'container'         =>  false,
+                ));
+                ?>
 
-                    <li><a href="contact-us.html">Contact</a></li>
 
-                </ul>
             </div>
+            <!-- Company Menu End -->
+
+            <!-- Recent Projects Start -->
             <div class="col-md-3 footer-courses mt-md-0 mt-4">
                 <h5 class="footer-headings-color mb-md-3 mb-2">Recent Projects</h5>
                 <ul>
@@ -58,21 +62,20 @@
 
                 </ul>
             </div>
+            <!-- Recent Projects End -->
+
+            <!-- Get In Touch Start -->
             <div class="col-md-3 footer-getin-touch mt-md-0 mt-4">
                 <h5 class="footer-headings-color mb-md-3 mb-2">Get In Touch</h5>
-                <ul>
-                    <li>
-                        <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
-                    </li>
-                    <li><a href="#"><i class="bi bi-youtube"></i> Youtube</a></li>
 
-                    <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
-
-                    <li><a href="#"><i class="bi bi-linkedin"></i> Linkedin</a></li>
-
-                </ul>
-
+                <?php
+                wp_nav_menu(array(
+                    'theme_location'    =>  'get-in-touch-menu',
+                    'container'         =>  false,
+                ));
+                ?>
             </div>
+            <!-- Get In Touch End -->
         </div>
     </div>
 </div>
