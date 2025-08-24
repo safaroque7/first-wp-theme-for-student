@@ -1,24 +1,9 @@
 <?php
-function my_portfolio_css_and_js()
-{
-    wp_register_style('bootstrap-min-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css', array(), '5.3.7', 'all');
-    wp_register_style('bootstrap-icons-min-css', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css', array(), '1.12.1.7', 'all');
-    wp_register_style('swiper-bundle-min-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '1.12.1.7', 'all');
-
-    wp_enqueue_style('bootstrap-min-css');
-    wp_enqueue_style('bootstrap-icons-min-css');
-    wp_enqueue_style('swiper-bundle-min-css');
-    wp_enqueue_style('portfolio-stylesheet', get_stylesheet_uri());
-
-    wp_enqueue_script('bootstrap-bundle-min-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js', array(), '5.3.7', true);
-    wp_enqueue_script('swiper-bundle-min-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '11', true);
-}
-
-add_action('wp_enqueue_scripts', 'my_portfolio_css_and_js');
 
 //for title
 add_theme_support('title-tag');
 
+<<<<<<< HEAD
 
 
 
@@ -58,3 +43,13 @@ function validate_unique_school_email($result, $tag) {
 
 
 require_once get_template_directory() . '/includes/section-1-ads.php';
+=======
+// my-portfolio-theme-css-js
+include_once get_template_directory() . '/includes/my-portfolio-theme-css-js.php';
+
+// my-portfolio-theme-register-navbar
+include_once get_template_directory() . '/includes/my-portfolio-theme-register-navbar.php';
+
+// add-classes-on-main-menu-ul-li-a
+include_once get_template_directory() . '/includes/add-classes-on-main-menu-ul-li-a.php';
+>>>>>>> 57334194322fcca3a97c7925d0edb561a7777432
