@@ -2,19 +2,23 @@
 get_header();
 ?>
 
+
 <!-- *******Welcome Section Start ****** -->
 <div class="container-fluid px-0">
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-1.jpg'); ?>" class="d-block w-100 img-fluid" alt="...">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-1.jpg'); ?>"
+                    class="d-block w-100 img-fluid" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-2.jpg'); ?>" class="d-block w-100 img-fluid" alt="...">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-2.jpg'); ?>"
+                    class="d-block w-100 img-fluid" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-3.jpg'); ?>" class="d-block w-100 img-fluid" alt="...">
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/images/welcome-banner-3.jpg'); ?>"
+                    class="d-block w-100 img-fluid" alt="...">
             </div>
 
         </div>
@@ -56,7 +60,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-1.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-1.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -64,7 +69,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">Happiness Institute</h5>
-                        <a href="https://masudrana93.github.io/happiness-institute/" target="_blank" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/happiness-institute/" target="_blank"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -74,7 +80,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4 mt-md-0 mt-5">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project_2.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project_2.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -82,7 +89,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">Naem Nizam Blog</h5>
-                        <a href="https://masudrana93.github.io/naem-nizam/" target="_blank" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/naem-nizam/" target="_blank"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -92,7 +100,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4 mt-md-0 mt-5">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-3.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-3.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -100,7 +109,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">Saimon IELTS</h5>
-                        <a href="https://masudrana93.github.io/saimons-ielts/" target="_blank" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/saimons-ielts/" target="_blank"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -110,7 +120,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4 mt-5">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-4.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-4.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -118,7 +129,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">Madrasha</h5>
-                        <a href="https://masudrana93.github.io/madrasha-website/" target="_blank" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/madrasha-website/" target="_blank"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -128,7 +140,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4 mt-5">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-5.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-5.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -136,7 +149,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">University</h5>
-                        <a href="https://masudrana93.github.io/university-website/" target="_blank" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/university-website/" target="_blank"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -146,7 +160,8 @@ get_header();
             <!-- item start  -->
             <div class="col-md-4 mt-5">
                 <div class="card shadow rounded-0">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-6.jpg'); ?>" class="card-img-top rounded-0 img-fluid" alt="...">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/images/project-6.jpg'); ?>"
+                        class="card-img-top rounded-0 img-fluid" alt="...">
                     <div
                         class="card-body our-courses-view-btn-hover d-flex flex-column justify-content-center align-items-center position-relative pb-4">
                         <div
@@ -154,7 +169,8 @@ get_header();
                             <i class="bi bi-filetype-html fs-2 icon-color"></i>
                         </div>
                         <h5 class="card-title mt-5 mb-3">Landview Group</h5>
-                        <a href="https://masudrana93.github.io/landiview_group/" class="btn rounded-pill brand-color">View More</a>
+                        <a href="https://masudrana93.github.io/landiview_group/"
+                            class="btn rounded-pill brand-color">View More</a>
                     </div>
 
                 </div>
@@ -169,6 +185,19 @@ get_header();
 
 <!--***** Our courses section start  ******-->
 
+<section></section>
+<div class="container">
+    <row>
+        <div class="col-12">
+            <?php
+                echo do_shortcode('[contact-form-7 id="164cf55" title="Contact form 1"]');
+            ?>
+        </div>
+    </row>
+</div>
+</section>
+
+
+
 <?php
 get_footer();
-?>
